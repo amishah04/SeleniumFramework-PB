@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User added success::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/viewSystemUsers]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+    <line>
+      <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-08T21:44:08 PDT" name="Default suite" finished-at="2021-08-08T21:50:06 PDT" duration-ms="358919">
+    <groups>
+    </groups>
+    <test started-at="2021-08-08T21:44:08 PDT" name="Default test" finished-at="2021-08-08T21:50:06 PDT" duration-ms="358919">
+      <class name="driverFactory.DriverScriptPOM">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:driverFactory.DriverScriptPOM@7714e963]" started-at="2021-08-08T21:44:08 PDT" name="adminLogin" finished-at="2021-08-08T21:44:21 PDT" duration-ms="13654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="uservalidation()[pri:0, instance:driverFactory.DriverScriptPOM@7714e963]" started-at="2021-08-08T21:44:21 PDT" name="uservalidation" finished-at="2021-08-08T21:49:58 PDT" duration-ms="336428" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User added success::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/viewSystemUsers]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+            <line>
+              <![CDATA[User added fail::viewSystemUsers   http://orangehrm.qedgetech.com/symfony/web/index.php/admin/saveSystemUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uservalidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.DriverScriptPOM@7714e963]" started-at="2021-08-08T21:49:58 PDT" name="tearDown" finished-at="2021-08-08T21:50:06 PDT" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.DriverScriptPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

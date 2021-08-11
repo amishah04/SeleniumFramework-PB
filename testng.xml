@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Frameworks">
+  <test thread-count="5" name="datadriven">
+    <classes>
+       
+      <class name="driverFactory.DataDrivenDriverScript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="KeyWord">
+    <classes>
+    
+      <class name="driverFactory.KeyWordDriverScript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="hybrid">
+    <classes>
+      
+      <class name="driverFactory.HybridDriverScript"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Frameworks -->
